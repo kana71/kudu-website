@@ -1,36 +1,40 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Navbar extends Component {
+
     render() {
         return (
+
             <div>
 
-                <nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Kudu Biotech</a>
+                <nav className="navbar navbar-expand-lg navbar-light bg-light p-4">
+                    <div className="container-fluid">
+                        <Link className="navbar-brand" to="/">Kudu Biotech</Link>
 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="toggleSupportedContent">
-                            <ul class="navbar-nav ms-auto text-center">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <div className="collapse navbar-collapse" id="toggleSupportedContent">
+                            <ul className="navbar-nav ms-auto text-center">
+                                <li className="nav-item">
+                                    <Link className="nav-link active" to="/">Home</Link>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">What We Do</a>
+                                <li className="nav-item">
+                                    <Link className="nav-link active" to="/what-we-do">What We Do</Link>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Projects</a>
+                                <li className="nav-item">
+                                    <Link className="nav-link active" to="/projects">Projects</Link>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Experience</a>
+                                <li className="nav-item">
+                                    <Link className="nav-link active" to="/experience">Experience</Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
             </div>
+
         )
     }
 }

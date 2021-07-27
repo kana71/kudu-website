@@ -8,27 +8,26 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                <Navbar /> 
 
                 <Carousel />
 
-                <div class="container-fluid p-5 bg-dark transparent bg-gradient text-light ml-auto">
+                <div className="container-fluid p-5 bg-dark transparent bg-gradient text-light ml-auto">
 
-                    <h2 class="text-center">Who We Are</h2>
+                    <h2 className="text-center">Who We Are</h2>
                     <br/>
                     <br/>
 
                 
-                    <div class="row">
-                        <div class="col">
-                            <div class="container-fluid">
+                    <div className="row">
+                        <div className="col">
+                            <div className="container-fluid">
                                 <img src={process.env.PUBLIC_URL + "images/fields.jpg"} width="500px" height="500px"/>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="container-fluid justify-content-right">
-                                <p class="h5">
+                        <div className="col">
+                            <div className="container-fluid justify-content-right">
+                                <p className="h5">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
@@ -36,7 +35,7 @@ export default class Home extends Component {
                                 in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 <br />
 
-                                <p class="h5">
+                                <p className="h5">
                                 Morbi leo urna molestie at elementum. In massa tempor nec feugiat nisl pretium. In iaculis nunc 
                                 sed augue lacus viverra vitae congue eu. Mauris vitae ultricies leo integer. Vulputate odio ut enim 
                                 blandit. Ac turpis egestas sed tempus. Orci phasellus egestas tellus rutrum tellus pellentesque eu 
