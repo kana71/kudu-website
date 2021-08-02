@@ -1,4 +1,16 @@
-.App {
+.photo {
+  height: 100px;
+  width: 100px;
+}
+
+body {
+  background-color: #308b5e;
+}
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +47,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

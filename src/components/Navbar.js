@@ -8,14 +8,17 @@ export default class Navbar extends Component {
 
             <div>
 
-                <nav className="navbar navbar-expand-lg navbar-light bg-light p-4">
+                <nav className="navbar navbar-expand-lg navbar-light p-4">
                     <div className="container-fluid">
-                        <Link className="navbar-brand" to="/">Kudu Biotech</Link>
-
+                        {/* <Link className="navbar-brand" to="/">Kudu Biotech</Link> */}
+                        <Link className="navbar-brand" to="/">
+                            <img src={process.env.PUBLIC_URL + "logo.png"} width="130" height="55"></img>
+                        </Link>
+                        
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div className="collapse navbar-collapse" id="toggleSupportedContent">
+                        <div className="collapse navbar-collapse " id="toggleSupportedContent">
                             <ul className="navbar-nav ms-auto text-center">
                                 <li className="nav-item">
                                     <Link className="nav-link active" to="/">Home</Link>
