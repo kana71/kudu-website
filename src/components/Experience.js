@@ -1,11 +1,46 @@
 import React, { Component } from 'react';
 
+import Navbar from './Navbar';
+import Footer from './Footer';
+import nick from './nick.jpg'
+
 export default class Experience extends Component {
     render() {
         return (
-            <div>
-                <h1>Experience</h1>
+          <div className="container-fluid p-5 text-dark ml-auto ">
+            <h2 className="text-center">Experience</h2>
+            <div className="row mt-5">
+            <div className= "col text-center">
+            <img src={nick} className="center-nick"  alt="Nick Grantham"  width="400" height="400" />
             </div>
+            
+            
+
+{/* <
+    img src={nick} alt="Nick Grantham"
+    height={600}
+    width={400}
+    style={{ alignSelf: 'center' }}
+/> */}
+
+                </div>
+            <div className="row mt-5">
+                <div className="container-fluid pl-10">
+<p className="h4 text-center" >
+                Nick holds an undergraduate degree in Genetics, honours and master’s 
+                degrees in molecular biology from the University of Cape Town and a PhD 
+                in Biochemistry from the University of Cambridge. He has been involved 
+                in agricultural innovation since 2016 and has travelled to India, China, 
+                Hong Kong, Zambia, Eswatini, Mozambique, Malawi, Australia, Vietnam, 
+                Singapore, Indonesia, and Israel, to see agricultural practices, 
+                innovations, and fruit marketing developments in these places first-hand.
+            </p>
+
+                </div>
+            
+            </div>
+
+          </div>
         )
     }
 }
