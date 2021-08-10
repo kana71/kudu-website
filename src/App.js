@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.css'; 
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap/js/src/collapse.js';
 
 import Home from './components/Home';
 import WhatWeDo from './components/WhatWeDo'; 
@@ -27,6 +28,8 @@ export default class App extends Component {
               <Route path='/projects' component={Projects} />
               <Route path='/experience' component={Experience} />
             </div>
+          
+          <Footer />
         </BrowserRouter>
       </div>
     
