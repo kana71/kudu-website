@@ -1,0 +1,27 @@
+#projects-img-1 {
+    object-fit: cover; 
+    width: 500px; 
+    height: 300px;
+
+}
+
+.projectstag {
+    z-index:10;
+    background: rgb(5, 58, 14); opacity: 0.70;
+    width:100%;  
+}
+
+.projectslist {
+    z-index:10;
+    background: rgb(182, 197, 184); 
+    width:100%;   
+}
+
+.img {
+    position: relative; 
+    top: 4.7em;
+}
+
+.h1 {
+    text-shadow: 10px 10px black
+}
