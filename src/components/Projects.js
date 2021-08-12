@@ -1,51 +1,36 @@
 import React, { Component } from 'react'; 
 import './Projects.css';
 
-import litchiflower from './litchiflower.JPEG';
-import nurseries from './nurseries.JPG';
-import shelflife from './shelflife.jpg';
-import yellowlitchi from './yellow_litchi.jpg';
-import plant from './plant.jpg';
+import litchiflower from './image/litchiflower.jpg';
+import nurseries from './image/nurseries.jpg';
+import shelflife from './image/shelflife.jpg';
+import yellowlitchi from './image/yellow_litchi.jpg';
+import plant from './image/plant.jpg';
 
 
 
 export default class Projects extends Component {
     render() {
         return (
-            <div className="bg-gradient project"
-                // style= {{ backgroundImage: `src(${process.env.PUBLIC_URL + "./images/green-bg.jpg"}))`,
-                // backgroundPosition: 'center',
-                // backgroundSize: 'cover', 
-                // backgroundRepeat: 'no-repeat}} 
-                >
-
+            <div className="bg-gradient project">
                 <div className="d-flex projectstag bg-gradient text-dark text-center">
-                       
-                    {/* <div className="p-5">
-                    </div> */}
 
                     <div className="text-center text-light p-5"
                         style={{backgroundImage: `url(${plant})`,
                                 backgroundSize: 'cover',
                                 width: '1800px',
                                 height: '350px',
-                                backgroundPosition: 'center'
-
-                    }}
-                    >
+                                backgroundPosition: 'center'}}>
                         <br/>
                         <br/>
                         <h1 className="text-center">PROJECTS</h1><br />
                         <h5>Our currently ongoing projects</h5>
                     </div>
 
-                    {/* <div className="p-3">
-                    </div> */}
                 </div>
 
                 <div className="projectslist p-5 text-dark">
 
-                
                     <div className="">
                         <div class="card-2 mb-5 mx-5 p-5">
 
@@ -67,7 +52,6 @@ export default class Projects extends Component {
                                             in a subtropical tree crop. 
 
                                         </p>
-                                        <p class="card-text-2"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -95,7 +79,6 @@ export default class Projects extends Component {
                                         The project is still currently in development with the first results expected to arrive at the end of spring 2021. 
 
                                     </p>
-                                    <p class="card-text-2"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
 
@@ -126,7 +109,6 @@ export default class Projects extends Component {
                                             foliar spray to increase the shelf life of harvested fruit.
 
                                         </p>
-                                        <p class="card-text-2"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -156,13 +138,13 @@ export default class Projects extends Component {
                                         We visited two sites in that country to learn the technique and the technology which we have brought back to South Africa. 
 
                                     </p>
-                                    <p class="card-text-2"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
 
                             <div class="col-md-4">
                                 <img src={nurseries} width="500px" height="500px" class="img-fluid rounded-end" alt="..." id="projects-img-4"/>
                             </div>
+
                         </div>
                         </div>
                     </div>

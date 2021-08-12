@@ -24,31 +24,16 @@
 
 }
 
-/* body {
-    background-color: #f1fff8;
-} */
-
 .projectstag {
-    /* position:absolute; */
-    /* top:0; */
     z-index:10;
     background: rgb(5, 58, 14); opacity: 0.70;
-    /* background: rgb(182, 197, 184);  */
-
-    width:100%;
-        
-    
+    width:100%;  
 }
 
 .projectslist {
-
     z-index:10;
-    /* background: rgb(5, 58, 14); opacity: 0.70; */
     background: rgb(182, 197, 184); 
-
-    width:100%;
-            
-        
+    width:100%;   
 }
 
 .img {

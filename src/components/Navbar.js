@@ -13,7 +13,6 @@ export default class Navbar extends Component {
 
                 <nav className="navbar navbar-expand-lg navbar-light p-4">
                     <div className="container-fluid">
-                        {/* <Link className="navbar-brand" to="/">Kudu Biotech</Link> */}
                         <Link className="navbar-brand" to="/">
                             <img src={process.env.PUBLIC_URL + "logo.png"} width="130" height="55"></img>
                         </Link>

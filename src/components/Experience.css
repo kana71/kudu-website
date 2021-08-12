@@ -1,21 +1,7 @@
-/* .nickphoto {
-    height: 300px;
-    width: 300px;
-        display: flex;
-       justify-content: center;
-       align-items: center;
-    
-} */
-
-/* .center-nick{
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   
-} */
-
-  
-
+.experiencediv {
+    background: rgb(5, 58, 14); opacity: 0.70;
+    width:100%;  
+}
 
 .h4 {
     font-size: 20px;
@@ -27,15 +13,6 @@
 
 .experiencecontent {
     z-index:10;
-    /* background: rgb(5, 58, 14); opacity: 0.70; */
     background: rgb(182, 197, 184); 
-
     width:100%;
 }
-
-/* .experiencetext {
-    z-index:10;
-    background: rgb(5, 58, 14); opacity: 0.70;
-    width:100%;
-} */
-
