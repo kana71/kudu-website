@@ -31,17 +31,17 @@ export default class Projects extends Component {
 
                 <div className="projectslist p-5 text-dark">
 
-                    <div className="">
-                        <div class="card-2 mb-5 mx-5 p-5">
+                    <div className="projectsdiv">
+                        <div className="card-2 mb-5 mx-5 p-5">
 
-                            <div class="row g-0">
-                                <div class="col-md-4 mt-5">
-                                    <img src={yellowlitchi} width="500px" height="700px" class="img-fluid rounded-start" alt="..." id="projects-img-1"/>
+                            <div className="row g-0">
+                                <div className="col-md-4 mt-5">
+                                    <img src={yellowlitchi} width="500px" height="700px" className="img-fluid rounded-start" alt="..." id="projects-img-1"/>
                                 </div>
-                                <div class="col-md-8 p-5">
-                                    <div class="card-body-2 p-5">
-                                        <h4 class="card-title-2">Project 1: Tree crop tissue culture and genetic transformation</h4>
-                                        <p class="card-text-2">
+                                <div className="col-md-8 p-5">
+                                    <div className="card-body-2 p-5">
+                                        <h4 className="card-title-2">Project 1: Tree crop tissue culture and genetic transformation</h4>
+                                        <p className="card-text-2">
                                             Callous induction, transformation and bombardment are long term processes that 
                                             can take many years until success is verifiable. Nevertheless, in 2020 we began work 
                                             with the Institute of Plant Biotechnology at the University of Stellenbosch to generate 
@@ -59,15 +59,15 @@ export default class Projects extends Component {
                     </div>
 
                     {/* Project Two */}
-                    <div class="d-flex align-content-end flex-wrap">
-                        <div class="card-2 my-5 mx-5 p-3">
+                    <div className="d-flex align-content-end flex-wrap">
+                        <div className="card-2 my-5 mx-5 p-3">
 
-                        <div class="row g-0">
+                        <div className="row g-0">
 
-                            <div class="col-md-8 p-5">
-                                <div class="card-body-2 p-5">
-                                    <h4 class="card-title-2">Project 2: Floral induction</h4>
-                                    <p class="card-text-2">
+                            <div className="col-md-8 p-5">
+                                <div className="card-body-2 p-5">
+                                    <h4 className="card-title-2">Project 2: Floral induction</h4>
+                                    <p className="card-text-2">
                                         Alternative bearing is a common problem in all tree crops. In some years orchards will bear 
                                         much higher than expected yields and then be followed by one or two years of lower-than-average production. 
                                         Such swings in finances are less than optimal, and it would be much better if a lower but steadier rate of 
@@ -82,8 +82,8 @@ export default class Projects extends Component {
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
-                                <img src={litchiflower} width="500px" height="500px" class="img-fluid rounded-end" alt="..." id="projects-img-2"/>
+                            <div className="col-md-4">
+                                <img src={litchiflower} width="500px" height="500px" className="img-fluid rounded-end" alt="..." id="projects-img-2"/>
                             </div>
                             
                         </div>
@@ -92,16 +92,16 @@ export default class Projects extends Component {
 
                     {/* Project Three */}
                     <div className="d-flex">
-                        <div class="card-2 my-5 mx-5 p-5">
+                        <div className="card-2 my-5 mx-5 p-5">
 
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src={shelflife} width="500px" height="350px" class="img-fluid rounded-start" alt="..." id="projects-img-3"/>
+                            <div className="row g-0">
+                                <div className="col-md-4">
+                                    <img src={shelflife} width="500px" height="350px" className="img-fluid rounded-start" alt="..." id="projects-img-3"/>
                                 </div>
-                                <div class="col-md-8 p-5">
-                                    <div class="card-body-2 p-5">
-                                        <h4 class="card-title-2">Project 3: Pre- and post harvest biochemical applications for increased shelf life</h4>
-                                        <p class="card-text-2">
+                                <div className="col-md-8 p-5">
+                                    <div className="card-body-2 p-5">
+                                        <h4 className="card-title-2">Project 3: Pre- and post harvest biochemical applications for increased shelf life</h4>
+                                        <p className="card-text-2">
                                             Building on knowledge from visits to fruit industries around the world, we have brought in a 
                                             post-harvest chemical application used in India to increase the shelf life of (unsulfured) fruit. 
                                             This allows two weeks of reasonably good quality refrigerated produce without the need for harsh inorganic 
@@ -118,14 +118,14 @@ export default class Projects extends Component {
 
                    {/* Project Four */}
                    <div>
-                        <div class="card-2 my-5 mx-5 p-3">
+                        <div className="card-2 my-5 mx-5 p-3">
 
-                        <div class="row g-0">
+                        <div className="row g-0">
 
-                            <div class="col-md-8 p-5">
-                                <div class="card-body-2 px-5">
-                                    <h4 class="card-title-2">Project 4: Micro-cutting protocols for nurseries</h4>
-                                    <p class="card-text-2">
+                            <div className="col-md-8 p-5">
+                                <div className="card-body-2 px-5">
+                                    <h4 className="card-title-2">Project 4: Micro-cutting protocols for nurseries</h4>
+                                    <p className="card-text-2">
                                         Being able to meet the demand for new planting material is always an issue for nurseries. 
                                         New cultivars need to be assessed, mother blocks need to be planted and large volumes of 
                                         rooted cuttings or grafts need to be quickly made and sold in order to turn a profit. 
@@ -141,8 +141,8 @@ export default class Projects extends Component {
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
-                                <img src={nurseries} width="500px" height="500px" class="img-fluid rounded-end" alt="..." id="projects-img-4"/>
+                            <div className="col-md-4">
+                                <img src={nurseries} width="500px" height="500px" className="img-fluid rounded-end" alt="..." id="projects-img-4"/>
                             </div>
 
                         </div>

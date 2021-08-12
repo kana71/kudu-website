@@ -17,7 +17,7 @@ export default class Carousel extends Component {
                         <div className="carousel-item active" data-bs-interval="1000">
                             <img src={slide1} className="d-block w-100" alt="..."/>
 
-                            <div class="myCaption carousel-caption ">
+                            <div className="myCaption carousel-caption ">
                                 <p>KUDU BIOTECH</p>
                                 <h1>Agricultural innovation through biotechnology</h1>
                             </div>
@@ -25,7 +25,7 @@ export default class Carousel extends Component {
 
                         <div className="carousel-item bg-transparent" data-bs-interval="10000">
                             <img src={fields2} className="d-block w-100" alt="..."/>
-                            <div class="carousel-caption ">
+                            <div className="carousel-caption ">
                                 <p>KUDU BIOTECH</p>
                                 <h1>Solving agricultural solutions using biotechnology</h1>
                             </div>
@@ -33,7 +33,7 @@ export default class Carousel extends Component {
 
                         <div className="carousel-item" data-bs-interval="10000">
                             <img src={fields3} className="d-block w-100" alt="..."/>
-                            <div class="carousel-caption ">
+                            <div className="carousel-caption ">
                                 <p>KUDU BIOTECH</p>
                                 <h1>Solving agricultural solutions using biotechnology</h1>
                             </div>

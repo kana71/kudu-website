@@ -25,7 +25,7 @@ export default class Home extends Component {
                                 <div className="container-fluid p-4">
                                     <div className="row mt-3 p-5">
                                         <div className= "col text-center">
-                                            <img class="img-fluid" src={whoweareimage} width="400px" height="400px"/>
+                                            <img className="img-fluid" src={whoweareimage} width="400px" height="400px"/>
 
                                         </div>
                                     </div>
